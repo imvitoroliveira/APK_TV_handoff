@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <title>Meu Stream | Seu cinema pessoal</title>
+    <meta name="description" content="Meu Stream - Seu cinema pessoal com filmes, séries, agenda esportiva e muito mais. Acesse seu catálogo completo." />
+    <meta name="author" content="Meu Stream" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://watch-wish-play.lovable.app/" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="/pwa-icon-512.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Meu Stream | Seu cinema pessoal" />
+    <meta property="og:description" content="Filmes, séries, agenda esportiva e Cine-Roleta. Seu catálogo completo num só lugar." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://watch-wish-play.lovable.app/" />
+    <meta property="og:image" content="/pwa-icon-512.png" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Meu Stream | Seu cinema pessoal" />
+    <meta name="twitter:description" content="Filmes, séries, agenda esportiva e Cine-Roleta." />
+    <meta name="twitter:image" content="/pwa-icon-512.png" />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Meu Stream",
+      "description": "Seu cinema pessoal com filmes, séries e agenda esportiva.",
+      "url": "https://watch-wish-play.lovable.app/",
+      "applicationCategory": "EntertainmentApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL"
+      }
+    }
+    </script>
+
+    <!-- PushAlert Unified Code -->
+    <script type="text/javascript">
+      (function(d, t) {
+          var g = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+          g.src = "https://cdn.pushalert.co/unified_1cb6dde3a4e97824c9dd8bfededca0bd.js";
+          s.parentNode.insertBefore(g, s);
+      }(document, "script"));
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

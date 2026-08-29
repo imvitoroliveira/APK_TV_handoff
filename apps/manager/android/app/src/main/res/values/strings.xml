@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Meu Stream Gestor</string>
+    <string name="title_activity_main">Meu Stream Gestor</string>
+    <string name="package_name">com.clientestoptv.meustream.manager</string>
+    <string name="custom_url_scheme">com.clientestoptv.meustream.manager</string>
+</resources>

@@ -1,0 +1,59 @@
+project_id = "xhsjqgnbmgnwvkzkeeok"
+
+[functions.manage-clients]
+verify_jwt = false
+
+[functions.parse-m3u]
+verify_jwt = false
+
+[functions.admin-login]
+verify_jwt = false
+
+[functions.football-matches]
+verify_jwt = false
+
+[functions.trailer-challenge]
+verify_jwt = false
+
+[functions.match-reminders]
+verify_jwt = false
+
+[functions.content-alerts]
+verify_jwt = false
+
+[functions.user-presence]
+verify_jwt = false
+
+[functions.tmdb-proxy]
+verify_jwt = false
+
+[functions.client-login]
+verify_jwt = false
+
+[functions.n8n-proxy]
+verify_jwt = false
+
+[functions.google-sheets-sync]
+verify_jwt = false
+
+[functions.m3u-auto-refresh]
+verify_jwt = false
+
+
+[functions.abacatepay-webhook]
+verify_jwt = false
+
+[functions.app-settings]
+verify_jwt = false
+
+[functions.system-health-check]
+verify_jwt = false
+
+[functions.push-test]
+verify_jwt = false
+
+[functions.stream-proxy]
+verify_jwt = false
+
+[functions.stream-lookup]
+verify_jwt = false
