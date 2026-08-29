@@ -1,0 +1,24 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated builds
+**/node_modules/
+**/dist/
+**/.gradle/
+**/build/
+**/.vite/
+
+# Local IDE/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local diagnostics
+*.log
+npm-debug.log*
+
+# User-provided media and local caches
+*.m3u8
